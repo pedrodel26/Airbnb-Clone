@@ -9,36 +9,45 @@ import SwiftUI
 
 struct ProfileView: View {
     var body: some View {
-        VStack(alignment: .leading, spacing: 32) {
-            
-            VStack(alignment: .leading, spacing: 8) {
-                Text("Profile")
-                    .font(.largeTitle)
-                    .fontWeight(.semibold)
+        VStack {
+            VStack(alignment: .leading, spacing: 32) {
                 
-                Text("Login to start planning your next trip")
+                VStack(alignment: .leading, spacing: 8) {
+                    Text("Profile")
+                        .font(.largeTitle)
+                        .fontWeight(.semibold)
+                    
+                    Text("Login to start planning your next trip")
+                }
+                
+                Button(action: {
+                    print("Login")
+                }, label: {
+                    Text("Log in")
+                        .foregroundStyle(.white)
+                        .font(.subheadline)
+                        .fontWeight(.semibold)
+                        .frame(width: 360, height: 48)
+                        .background(.pink)
+                        .clipShape(RoundedRectangle(cornerRadius: 8))
+                })
+                
+                HStack {
+                    Text("Don't have an account?")
+                    
+                    Text("Sign Up")
+                        .fontWeight(.semibold)
+                        .underline()
+                }
             }
             
-            Button(action: {
-                print("Login")
-            }, label: {
-                Text("Log in")
-                    .foregroundStyle(.white)
-                    .font(.subheadline)
-                    .fontWeight(.semibold)
-                    .frame(width: 360, height: 48)
-                    .background(.pink)
-                    .clipShape(RoundedRectangle(cornerRadius: 8))
-            })
-            
-            HStack {
-                Text("Don't have an account?")
-                
-                Text("Sign Up")
-                    .fontWeight(.semibold)
-                    .underline()
+            VStack(spacing: 24) {
+                ProfileOptionRowView(imageName: "gear", title: "Settings")
+                ProfileOptionRowView(imageName: "gear", title: "Acessibility")
+                ProfileOptionRowView(imageName: "questionmark.app.fill", title: "Visit the web site")
             }
         }
+        .padding()
     }
 }
 

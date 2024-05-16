@@ -17,6 +17,7 @@
 		BD3879502BD9C30900A67085 /* ListingItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD38794F2BD9C30900A67085 /* ListingItemView.swift */; };
 		BD3879532BDB581C00A67085 /* SearchAndFilterBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3879522BDB581C00A67085 /* SearchAndFilterBar.swift */; };
 		BD9E19242BF3F9BC009C5266 /* ProfileOptionRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9E19232BF3F9BC009C5266 /* ProfileOptionRowView.swift */; };
+		BD9E19262BF5BD6D009C5266 /* WishlistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9E19252BF5BD6D009C5266 /* WishlistView.swift */; };
 		BDD671422BDBE91F00F0C0F9 /* ListingDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD671412BDBE91F00F0C0F9 /* ListingDetailView.swift */; };
 		BDD671452BDBE9EE00F0C0F9 /* ListingImageCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD671442BDBE9EE00F0C0F9 /* ListingImageCarouselView.swift */; };
 /* End PBXBuildFile section */
@@ -33,6 +34,7 @@
 		BD38794F2BD9C30900A67085 /* ListingItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingItemView.swift; sourceTree = "<group>"; };
 		BD3879522BDB581C00A67085 /* SearchAndFilterBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAndFilterBar.swift; sourceTree = "<group>"; };
 		BD9E19232BF3F9BC009C5266 /* ProfileOptionRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileOptionRowView.swift; sourceTree = "<group>"; };
+		BD9E19252BF5BD6D009C5266 /* WishlistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishlistView.swift; sourceTree = "<group>"; };
 		BDD671412BDBE91F00F0C0F9 /* ListingDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingDetailView.swift; sourceTree = "<group>"; };
 		BDD671442BDBE9EE00F0C0F9 /* ListingImageCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingImageCarouselView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -134,6 +136,7 @@
 		BD3879442BD9BC9B00A67085 /* WishLists */ = {
 			isa = PBXGroup;
 			children = (
+				BD9E19252BF5BD6D009C5266 /* WishlistView.swift */,
 			);
 			path = WishLists;
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 				BD3879502BD9C30900A67085 /* ListingItemView.swift in Sources */,
 				BD3879312BD95F0C00A67085 /* ContentView.swift in Sources */,
 				BD38794E2BD9BD6B00A67085 /* ExploreView.swift in Sources */,
+				BD9E19262BF5BD6D009C5266 /* WishlistView.swift in Sources */,
 				BD3879532BDB581C00A67085 /* SearchAndFilterBar.swift in Sources */,
 				BDD671422BDBE91F00F0C0F9 /* ListingDetailView.swift in Sources */,
 				BD38792F2BD95F0C00A67085 /* AirbnbApp.swift in Sources */,

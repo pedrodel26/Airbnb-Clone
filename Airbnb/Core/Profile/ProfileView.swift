@@ -46,6 +46,7 @@ struct ProfileView: View {
                 ProfileOptionRowView(imageName: "gear", title: "Acessibility")
                 ProfileOptionRowView(imageName: "questionmark.app.fill", title: "Visit the web site")
             }
+            .padding(.vertical)
         }
         .padding()
     }

@@ -18,6 +18,7 @@ struct WishlistView: View {
                             .font(.headline)
                         
                         Text("You can create, view or edit wishlists once you've logged in")
+                            .font(.footnote)
                     }
                     
                     Button(action: {

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD02E3C42BF701C600042D8A /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD02E3C32BF701C600042D8A /* MainTabView.swift */; };
 		BD15B1D32BF3DA97002AB1C1 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD15B1D22BF3DA97002AB1C1 /* ProfileView.swift */; };
 		BD33E3622BDFD7D800262DFF /* DestinationSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD33E3612BDFD7D800262DFF /* DestinationSearchView.swift */; };
 		BD38792F2BD95F0C00A67085 /* AirbnbApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD38792E2BD95F0C00A67085 /* AirbnbApp.swift */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD02E3C32BF701C600042D8A /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		BD15B1D22BF3DA97002AB1C1 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		BD33E3612BDFD7D800262DFF /* DestinationSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationSearchView.swift; sourceTree = "<group>"; };
 		BD38792B2BD95F0C00A67085 /* Airbnb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Airbnb.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -144,6 +146,7 @@
 		BD3879472BD9BCAB00A67085 /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
+				BD02E3C32BF701C600042D8A /* MainTabView.swift */,
 			);
 			path = TabBar;
 			sourceTree = "<group>";
@@ -279,6 +282,7 @@
 				BD3879532BDB581C00A67085 /* SearchAndFilterBar.swift in Sources */,
 				BDD671422BDBE91F00F0C0F9 /* ListingDetailView.swift in Sources */,
 				BD38792F2BD95F0C00A67085 /* AirbnbApp.swift in Sources */,
+				BD02E3C42BF701C600042D8A /* MainTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
